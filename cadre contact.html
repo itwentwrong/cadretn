@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="css/form.css" >
+       
+    </head>
+    <body >
+            <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+                    <div class="container-fluid" style="background-color:rgb(0, 0, 0)" > 
+                          <div class="navbar-header" >
+                                       <img class="tre" style="width: 50px;margin-top: 10px;margin-left:20px;"  src="res\re.png" alt="logo">
+                          </div>
+                <ul class="nav navbar-nav" "ktiba">
+                    <li><a href="index.html" class="a" style="color:white;">Menu</a></li>
+                   <li><a href="cadre.html" class="a" style="color:white;">shop</a></li>
+                   <li><a href="cadre contact.html" class="a" style="color:white;">Contact</a></li>
+                   <input type="text" id="search" placeholder="Search...">
+                   <a class="cart" href="checkout form.html" class="btn btn-info btn-lg">
+                           <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+                         </a>
+                </ul>
+                     </div>
+                         </nav>
+                         <br><br><br><br>
+
+        <div class="container">
+            <div class="imagebg"></div>
+            <div class="row " style="margin-top: 50px">
+                <div class="col-md-6 col-md-offset-3 form-container">
+                    <h2>Contact</h2> 
+                    <p> Please feel free to contact us : </p>
+                    <form role="form" method="post" id="form1">
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label>content quality : </label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                     good
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        average
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                       bad
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="comments"> Comments:</label>
+                                <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name"> Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="email"> Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button id="submit" type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="JS/form.js"></script>
+    </body>
+</html>

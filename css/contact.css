@@ -1,0 +1,9 @@
+.alert{
+    text-align: center; padding:10px; background:#79c879; 
+    color:#fff; margin-bottom:10px; display:none;
+  }
+
+  .a,.b,.c{display:inline-flex;
+    width:80%;}
+
+

@@ -1,0 +1,146 @@
+body{background-image:url("https://www.chaletcharbray.com/wp-content/uploads/2015/06/bg_wood.jpg");}
+.nav{
+    border:0px;
+}
+li{font-size:17px;}
+
+.a{margin-left:50px;
+    margin-top:20px;   
+  
+}
+#ktiba{
+ margin-top:20px;   
+}
+
+
+#search {
+ 
+    padding: 6px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 90px;
+    font-size:15px;
+}
+
+.cart{
+    margin-left :110px;
+    font-size:15px;
+    margin-top: -8px;
+}
+   
+
+.image {
+    display: inline-block;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width:25%;
+  height: 320px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.part1:hover .image {
+  opacity: 0.3;
+}
+
+.part1:hover .middle {
+  opacity: 1;
+}
+.part2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part2:hover .middle {
+    opacity: 1;
+  }
+  .part3:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part3:hover .middle {
+    opacity: 1;
+  }
+  .part4:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part4:hover .middle {
+    opacity: 1;
+  }
+  .part5:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part5:hover .middle {
+    opacity: 1;
+  }
+  .part6:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part6:hover .middle {
+    opacity: 1;
+  }
+  .part7:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part7:hover .middle {
+    opacity: 1;
+  }
+  .part8:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part8:hover .middle {
+    opacity: 1;
+  }
+  .part9:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part9:hover .middle {
+    opacity: 1;
+  }
+  .part10:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part10:hover .middle {
+    opacity: 1;
+  }
+  .part11:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part11:hover .middle {
+    opacity: 1;
+  }
+  .part12:hover .image {
+    opacity: 0.3;
+  }
+  
+  .part12:hover .middle {
+    opacity: 1;
+  }
+.text {
+  color: rgb(14, 12, 12);
+  font-size: 25px;
+  padding: 15px 15px;
+ font-style: bold;
+}
+#aboutp {
+  color:black;
+  margin-top:-60px;
+
+}

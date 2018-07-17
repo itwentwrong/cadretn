@@ -1,0 +1,51 @@
+
+
+body {
+	height: 100%;
+}
+
+.imagebg {
+position: absolute;
+left: 0;
+top: 0;
+height: 700px;
+width: 100%;
+z-index: -1;
+background-image: url("../res/br.jpg");
+opacity:0.5;
+}
+.form-container
+{
+	background-color: #fff;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 20px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    border-radius: 8px;	
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    border:0px;
+}
+#ktiba{
+    margin-top:20px;   
+   }
+   
+   
+   #search {
+    
+       padding: 6px;
+       border: none;
+       margin-top: 25px;
+       margin-left: 90px;
+       font-size:15px;
+   }
+   
+   .cart{
+       margin-left :110px;
+       font-size:15px;
+       margin-top: -8px;
+   }
+   li{font-size:17px;}
+
+.a{margin-left:50px;
+    margin-top:20px;   
+}
